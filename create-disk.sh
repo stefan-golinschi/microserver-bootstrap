@@ -1,7 +1,7 @@
 #/bin/bash
 
 # Be make sure to set your device name accordingly!
-export DEVICE=/dev/sdf
+export DEVICE=/dev/sdb
 
 export DEVPART=${DEVICE}1
 export MOUNTPOINT=./mount
@@ -21,4 +21,4 @@ echo "GRUB2 installed and configured."
 sync
 sudo umount mount
 sudo rm -rf mount
-echo "Done. You can nou unplug the device (${DEVICE}) from USB."
+echo "Done. You can now unplug the device (${DEVICE}) from USB."
