@@ -1,7 +1,6 @@
 #/bin/bash
 
-# Be make sure to set your device name accordingly!
-export DEVICE=/dev/sdb
+export DEVICE=$1
 
 export DEVPART=${DEVICE}1
 export MOUNTPOINT=./mount
