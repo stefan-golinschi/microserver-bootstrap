@@ -13,8 +13,8 @@ When using AHCI Sata Mode, the server will be able to boot either from USB/micro
 
 ## Usage
 
-Before firing the `create-disk.sh` script, **PLEASE** make sure that you edit the `DEVICE` variable inside the script accordingly.
+Before firing the `create-disk.sh` script, **PLEASE** make sure that you modify the /dev/sdX argument accordingly.
 
 ```
-./create-disk.sh
+./create-disk.sh /dev/sdX
 ```
